@@ -1,4 +1,6 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showIcon(IconNames.Asleep)
+})
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Target)
 })
-basic.showIcon(IconNames.Asleep)
